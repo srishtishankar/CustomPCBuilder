@@ -1,0 +1,44 @@
+#header {
+	padding-top: 2%;
+	padding-right: 10%;
+	text-align: right;
+}
+li {
+  display: inline;
+  padding-right: 30px;
+}
+a{
+	color: grey;
+	text-decoration: none;
+}
+a:hover{
+	color: black;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  
+}
+
+body {
+	text-align: center;
+	font-family: "montserrat";
+	color: grey;
+}
+
+#content {
+	padding-top: 3%;
+}
+
+h2 {
+	color: #2196F3;
+}
+
+table{
+	padding-left: 15%;
+}
+
+img {
+	width: 300px;
+	height: 300px;
+}

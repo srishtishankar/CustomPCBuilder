@@ -1,0 +1,60 @@
+#header {
+	padding-top: 2%;
+	padding-right: 10%;
+	text-align: right;
+}
+li {
+  display: inline;
+  padding-right: 30px;
+}
+a{
+	text-decoration: none;
+}
+a:hover{
+	color: black;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  
+}
+
+#content {
+	padding: 5%;
+	font-family: "montserrat";
+}
+
+body {
+	text-align: center;
+	color: grey;
+	background: url("blue2.jpg");
+	background-size: cover;
+	background-position: center;
+  	background-repeat: no-repeat;
+}
+
+select {
+	margin: 30px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+#submit {
+	border: none;
+  	color: white;
+  	padding: 12px 24px;
+  	cursor: pointer;
+  	background-color: #2196F3;
+}
+
+#logi {
+	color:white;
+	position: fixed;
+	top: 0;
+	right:300px;
+	width: 300px;
+	border: 3px solid #2196F3;
+	background-color: #2196F3;
+	border-radius: 4px;
+	text-align: center;
+}

@@ -1,0 +1,37 @@
+body{
+  background: url(blue3.jpg);
+  background-size: cover;
+	background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+  font-family: "montserrat";
+}
+
+h1{
+  padding-top: 5%;
+}
+
+#table{
+  padding-left: 39%;
+  padding-top: 4%;
+  padding-bottom: 2%;
+}
+
+table{
+  height: 300px;
+  width: 300px;
+}
+a{
+  text-decoration: none;
+  color: #2196F3;
+}
+a:hover{
+    color: grey;
+  }
+th, #tr2, #tr4{
+  background-color: #2196F3;
+  color: white;
+}
+#tr1, #tr3{
+  background-color: white;
+}

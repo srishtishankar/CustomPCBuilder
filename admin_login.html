@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Admin Login</title>
+
+	<style>
+
+	body{
+		text-align: center;
+	}
+	img{
+		width: 200px;
+		height: 200px;
+	}
+	#content{
+		padding: 5%;
+	}
+	h1{
+		color: #2361B2;
+	}
+	#submit{
+		background-color: #2361B2;
+		width: 80px;
+		height: 40px;
+		color: white;
+	}
+	input{
+		width: 200px;
+		height: 30px;
+	}
+	</style>
+
+</head>
+<body>
+	<div id="content">
+		<img src="profile.png">
+		<h1><b>Welcome Back</b></h1><br>
+		<form method="POST" action="admin_login.php">
+			<input type="text" name="userid" value="userid" required><br><br>
+			<input type="password" name="password" value="*******" required><br><br><br>
+  			<input type="submit" id="submit" value="Submit">
+  		</form>
+  	</div>
+</body>
+</html>

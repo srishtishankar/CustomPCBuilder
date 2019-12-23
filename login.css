@@ -1,0 +1,31 @@
+body{
+	text-align: center;
+	color: grey;
+	font-family: "montserrat";
+	background: url("blue.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#content {
+	padding: 10%;
+}
+
+#submit {
+	border: none;
+  	color: white;
+  	padding: 10px 20px;
+  	cursor: pointer;
+  	background-color: #2196F3;
+  	border-radius: 10%;
+}
+
+a {
+	color: #2196F3;
+	text-decoration-line: none;
+}
+
+a:hover {
+	color: black;
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Compare parts</title>
+	<link rel="stylesheet" type="text/css" href="getstarted.css">
+</head>
+
+<body>
+	<div id="header">
+		<ul>
+  			<li><a href="index.html">Home</a></li>
+  			<li><a href="getstarted.html">Compare Parts</a></li>
+  			<li><a href="starterpack.html">Starter Pack</a></li>
+  			<li><a href="contact.html">Contact Us</a></li>
+		</ul>
+    <p id="logi" >you are logged in </p>
+	</div>
+	<div id="content">
+		<h1>Check Compatibility</h1> <br><br>
+		<form action="selection_page.php">
+  			<select name="processors">
+    			<option value="Select processor">--Select processor--</option>
+    			<option value="processor1">processor1</option>
+    			<option value="processor2">processor2</option>
+    			<option value="processor3">processor3</option>
+  			</select>
+
+  			<select name="GPU">
+    			<option value="Select GPU">--Select GPU--</option>
+    			<option value="GPU1">GPU1</option>
+    			<option value="GPU2">GPU2</option>
+    			<option value="GPU3">GPU3</option>
+  			</select>
+
+  			<select name="RAM">
+    			<option value="Select RAM">--Select RAM--</option>
+    			<option value="RAM1">RAM1</option>
+    			<option value="RAM2">RAM2</option>
+    			<option value="RAM3">RAM3</option>
+  			</select><br><br><br>
+  			<input type="submit" value="Check" id="submit">
+  		</form> <br><br>
+  		<span><h3>It is compatible</h3></span>
+	</div>
+
+  <script>
+      const log = document.getElementById("logi");
+
+      setTimeout(() => {
+      log.style.display = 'none';
+      }, 2000);
+  </script>
+
+</body>
+</html>

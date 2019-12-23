@@ -1,0 +1,48 @@
+iframe{
+	width: 400px;
+	height: 300px;
+}
+#header{
+	padding: 5%;
+	text-align: center;
+	color: white;
+	background-color: #2361B2;
+}
+table{
+	padding-left: 20%
+}
+#googleMap{
+	padding-left: 15%;
+}
+form{
+	width: 400px;
+	height: 300px;
+}
+body{
+	font-family: "montserrat";
+}
+img{
+	width: 25px;
+	height: 20px;
+}
+button{
+	border: none;
+  	color: white;
+  	padding: 10px 20px;
+  	cursor: pointer;
+  	background-color: #2361B2;
+}
+#navbar{
+	text-align: right;
+}
+li {
+  display: inline;
+  padding-right: 50px;
+}
+a{
+	color: grey;
+	text-decoration: none;
+}
+a:hover{
+	color: black;
+}

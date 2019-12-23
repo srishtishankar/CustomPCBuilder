@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Delete Page</title>
+</head>
+<style>
+	body{
+		text-align: center;
+		background: url("blue2.jpg");
+		background-size: cover;
+		background-position: center;
+  		background-repeat: no-repeat;	
+	}
+	#content{
+		padding: 5%;
+	}
+	h1, a{
+		color: #2361B2;
+		text-decoration: none;
+	}
+	a:hover{
+		color: grey;
+	}
+	#submit{
+		background-color: #2361B2;
+		width: 80px;
+		height: 40px;
+		color: white;
+	}
+	input{
+		width: 200px;
+		height: 30px;
+	}
+	</style>
+<body>
+	<div id="content">
+		<h1><b>Delete data</b></h1><br>
+		<form method="POST" action="delete.php">
+			<input type="text" name="name" value="name" required><br><br>
+  			<input type="submit" id="submit" value="Submit">
+  		</form>
+  		<h3><a href="admin_home.html">Go back</a></h3>
+  	</div>
+</body>
+</html>

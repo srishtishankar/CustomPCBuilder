@@ -1,0 +1,46 @@
+#header {
+	padding-top: 2%;
+	padding-right: 10%;
+	text-align: right;
+}
+li {
+  display: inline;
+  padding-right: 30px;
+}
+a{
+	color: grey;
+	text-decoration: none;
+}
+a:hover{
+	color: black;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  
+}
+#middle{
+	color: grey;
+	text-align: left;
+	padding: 2%;
+}
+img{
+	width: 500px;
+	height: 500px;
+	align-items: right;
+	padding-left: 30%;
+}
+h1{
+	font-size: 50px;
+}
+#text{
+	font-family: "montserrat";
+	padding-left: 20%;
+}
+button{
+	border: none;
+  	color: white;
+  	padding: 14px 28px;
+  	cursor: pointer;
+  	background-color: #2196F3;
+}
