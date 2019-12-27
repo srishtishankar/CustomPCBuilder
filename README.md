@@ -20,3 +20,5 @@ Download all files and put them in htdocs folder of Xampp
 (incase you don't have xampp install that too)
 Next import both the sql tables in phpMyAdmin of Xampp
 And there you go...
+In order to access the user side write : localhost/index.html
+In order to access the admin side write : localhost/admin_login.html
